@@ -1,0 +1,122 @@
+/* ===== BASE ===== /
+
+body{
+margin:0;
+font-family:system-ui;
+background:#f8fafc;
+color:#111827;
+transition:.3s;
+}
+
+a{
+text-decoration:none;
+color:inherit;
+}
+
+/ ===== NAVBAR ===== /
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 40px;
+position:sticky;
+top:0;
+background:rgba(255,255,255,.8);
+backdrop-filter:blur(10px);
+border-bottom:1px solid #e5e7eb;
+}
+
+/ ===== HERO ===== /
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+color:#6b7280;
+margin-bottom:30px;
+}
+
+/ ===== BUTTON ===== /
+
+.btn{
+background:#2563eb;
+color:white;
+padding:14px 28px;
+border-radius:10px;
+display:inline-block;
+border:none;
+cursor:pointer;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+/ ===== SECTIONS ===== /
+
+.section{
+padding:90px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:40px;
+}
+
+.card{
+padding:30px;
+background:white;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+/ ===== FOOTER ===== /
+
+footer{
+text-align:center;
+padding:40px;
+border-top:1px solid #e5e7eb;
+}
+
+/ ===== DARK MODE ===== /
+
+body.dark{
+background:#0f172a;
+color:white;
+}
+
+body.dark .navbar{
+background:rgba(15,23,42,.8);
+border-color:#1e293b;
+}
+
+body.dark .card{
+background:#1e293b;
+}
+
+body.dark .hero p{
+color:#cbd5e1;
+}
+
+body.dark footer{
+border-color:#1e293b;
+}
+
+/ ===== SUCCESS MESSAGE ===== */
+
+.hidden{
+display:none;
+}
